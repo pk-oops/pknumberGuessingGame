@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>maingame</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="containe"></div>
+    <div id="input-container">
+        <h1>I have a number between 1 and 100. Can you guess it?</h1>
+        <input type="number" placeholder="enter your number" name="number" id="number-input" min="1" max="100">
+         <div class="button" id="sumbit">Sumbit</div>
+         <h2 class="lives-text">lives:<span id="lives">10</span></h2>
+         <div id="message"></div>
+    </div>
+    <script src="./game.js"></script>
+</body>
+</html>

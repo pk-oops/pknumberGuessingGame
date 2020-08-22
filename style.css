@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;700;800&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    background-color: #7754f8;
+    font-family: 'Nunito Sans', sans-serif;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    line-height: 1.6;
+    padding: 0 20px;
+    background: url(asserts/download.jpg);
+}
+.logo{
+    font-size: 5em;
+    color: rgb(247, 225, 29);
+    text-align: center;
+    width: 400px;
+    font-weight: bolder;
+}
+.button{
+    color: #fe8500;
+    margin: 30px 0;
+    border-radius: 4px;
+    padding: 10px 15px;
+    min-width: 100px;
+    text-align: center;
+    font-size: 1.2em;
+    cursor: pointer;
+    color: white;
+    background-color: orange;
+    border-radius: 10%;
+}
+#input-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    padding: 0 20px;
+    background-color: chartreuse;
+    background: url(asserts/download.jpg);
+    height: 100vh;
+    width: 100%;
+}
+h1{
+    text-align: center;
+    color: rgb(247, 225, 29);
+    margin: 20px;
+    font-weight: bold;
+    font-size: 100px;
+}
+input{
+    width: 200px;
+    margin: 50px;
+    height: 2.5em;
+    text-align: center;
+    font-size: 1.3em;
+    background-color: darkgray;
+
+}
+.lives-text{
+    color: red;
+}
+#message{
+    font-size: 1.5em;
+    background-color: #fecb00;
+    padding: 5px 15px;
+    border-radius: 2px;
+    text-align: center;
+    display: none;
+}
+.container1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+img{
+    width: 300px;
+    height: 300px;
+    
+}
+
+const startButton=document.getElementById('start');
+
+$startButton.onclick =() => {
+    location.href="./game.html";
+};
